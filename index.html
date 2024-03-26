@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Yeji Han">
   <meta name="description" content="Yeji Han's webpage">
-  <meta name="keywords" content="Compilers, Verification, Concurrency">
+  <meta name="keywords" content="Compilers, Verification, Weak Memory">
   <title>Yeji Han</title>
   <link rel="stylesheet" href="css/index.css">
   <link rel="icon" type="image/x-icon" href="statics/favicon.ico">
@@ -15,15 +15,17 @@
 <body>
 
 <header>
-  <img src="statics/yeji.jpg" alt="Notion style avatar of me">
-  <h1>Yeji Han</h1>
-  <nav>
-  <ul>
-    <li><a href="mailto:yeji.han@sf.snu.ac.kr">Email</a></li>
-    <!-- <li><a href="statics/cv.pdf">CV (pdf)</a></li> -->
-    <li><a href="https://github.com/yj-han">GitHub</a></li>
-  </ul>
-  </nav>
+  <h1><span class="marker-highlight">Yeji Han</span></h1>
+  <div class="flex-container">
+    <img src="statics/yeji.png" alt="Notion style avatar of me">
+    <nav>
+    <ul>
+      <li><a href="mailto:yeji.han@sf.snu.ac.kr">Email</a></li>
+      <!-- <li><a href="statics/cv.pdf">CV (pdf)</a></li> -->
+      <li><a href="https://github.com/yj-han">GitHub</a></li>
+    </ul>
+    </nav>
+  </div>
 </header>
 
 <!-- Introduction -->
@@ -34,16 +36,12 @@ My research aims to make formal verification on concurrent programs.
 I am currently working on Linux pKVM verification.
 </p>
 
-<nav>
-<ul>
-  <li>Software Verification</li>
-  <li>Computer Architectures</li>
-  <li>Concurrent Programs</li>
-</ul>
-</nav>
+<p><span class="low-highlight"><b>Interests</b></span>: 
+  Formal Verification, Operating Systems, Weak Memory
+</p>
 
 <!-- Education -->
-<h2 id="Education">Education</h2>
+<h2 id="Education"><span class="circle-sketch-highlight">Education</span></h2>
 <table>
   <tr>
     <td>M.S., Computer Science and Engineering, Seoul National University</td>
@@ -60,11 +58,11 @@ I am currently working on Linux pKVM verification.
 </table>
 
 <!-- Employment -->
-<h2 id="Employment">Employment</h2>
+<h2 id="Employment"><span class="circle-sketch-highlight">Employment</span></h2>
 <table>
   <tr>
     <td>Research Intern, Institute of Computer Technology in Seoul National University</td>
-    <td>2023-2023</td>
+    <td>2023</td>
   </tr>
   <tr>
     <td>Software Engineer, Lucentblock</td>
@@ -72,7 +70,6 @@ I am currently working on Linux pKVM verification.
   </tr>
 </table>
 
-<footer>&copy; Yeji Han. All rights reserved. Last updated 26 Mar 2024.</footer>
-
+<footer><em>Last Updates: 26 Mar 2024.</em></footer>
 </body>
 </html>
