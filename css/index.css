@@ -1,9 +1,9 @@
 :root {
   --font: "Noto Sans";
-  --bg-color: #FFF4E6;
-  --high-color: #BE9B76;
-  --link-color: #854442;
-  --text-color: #3C2F2F;
+  --bg-color: #F2F2F2;
+  --high-color: #F7B633;
+  --link-color: #4A90E2;
+  --text-color: #333333;
   --delimiter: "|";
 }
 
